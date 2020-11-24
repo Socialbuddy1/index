@@ -1,0 +1,268 @@
+body,
+html {
+    height: 100%;
+    margin: 0%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: bold;
+}
+
+body {
+    background: url("bg.svg") no-repeat;
+    background-size: cover;
+    padding-bottom: 30%;
+}
+
+nav {
+    padding: 3%;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav li {
+    float: left;
+
+}
+
+nav li a {
+    color: #93278F;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+p a {
+    color: navy;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: bold underline;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    width: 60%;
+    margin: 8% auto;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2,
+h4 {
+    text-align: center;
+    color: #93278F;
+    font-size: 30px;
+}
+
+h3 {
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+h2 p {
+    text-align: center;
+    color: #93278F;
+    font-size: 25px;
+}
+
+h5 {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.container p {
+    font-size: 40px;
+}
+
+.paragraf {
+    color: navy;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 1%;
+
+}
+
+.paragraf-1 {
+    color: navy;
+    text-align: center;
+    font-size: 20px;
+    padding: 1%;
+
+}
+
+.poze {
+    padding-left: 37%;
+    margin-left: 5%;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 7%;
+}
+
+.paragraf-about p {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+.phone {
+    padding-top: 2%;
+    flex-basis: 35%;
+}
+
+.coloana {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 3%;
+
+}
+
+.sectiune {
+    border: 3px #93278F;
+    border-style: dotted solid;
+    padding: 0px 15px 0px 15px;
+    margin: 5px 5px 20px 5px;
+    text-align: center;
+
+}
+
+.sectiune p {
+    color: navy;
+    font-size: 18px;
+
+}
+
+.footer {
+
+    background-color: #b0deff;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+}
+
+.follow {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.coloana-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.sectiune-1 {
+    text-align: center;
+    border: 3px #fff solid;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2%;
+    font-size: 35px;
+
+}
+
+.sectiune-1 h3 {
+    font-size: 45px;
+    font-style: italic;
+}
+
+.sectiune-1 li {
+    font-size: 25px;
+    text-align: center;
+}
+
+.servicii h2 {
+    font-size: 35px;
+    color: #fff;
+}
+
+.tabel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+}
+
+.sectiune-tabel {
+    border: #93278F 4px dashed;
+    color: #93278F;
+    padding: 5%;
+    margin-right: 2%;
+}
+
+.altapoza {
+    flex-basis: 35%;
+    width: 100%;
+    margin-left: 3%;
+}
+
+.sectiune-tabel h4 {
+    font-size: 35PX;
+    font-style: italic;
+}
+
+.sectiune-tabel li {
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1%;
+
+}
+
+.social-media {
+    padding-left: 2%;
+    border-right: #b0deff 3px solid;
+}
+
+.social-media li {
+    margin-left: 1%;
+    padding: 1%;
+    font-size: 30px
+}
+
+.date {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30%;
+}
+
+.sectiune-date {
+    text-align: center;
+}
+.galerie{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: #b0deff 2px solid;
+    border-bottom: #b0deff 2px solid ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0% 1% 2% 1% ;
+}
+.poza-galerie{
+    text-align: center;
+    color: #93278F ;
+    font-size: 20px;
+}
